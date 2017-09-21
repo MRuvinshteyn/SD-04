@@ -1,3 +1,8 @@
+#Michael Ruvinshteyn
+#SoftDev1 pd7
+#HW 04 -- Fill Up Yer Flask
+#2017 - 9 - 21
+
 import random
 from flask import Flask
 app = Flask(__name__)
