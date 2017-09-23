@@ -18,6 +18,7 @@ html = '''<h1>Behind one of these doors is a functional set of python code. Behi
 def hello_world():
     return html
 
+#each door runs the same code block, but each door has the same chances for the same outcomes, giving an average result as specified in the main page
 @app.route("/d1")
 def d1():
     if random.randint(0,2) == 0:
